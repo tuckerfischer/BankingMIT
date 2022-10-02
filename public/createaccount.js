@@ -156,7 +156,8 @@ function CreateAccount(){
               Password<br/>
               <input type="password" className="form-control" id="password" placeholder="Enter password" value={password} onChange={e => setPassword(e.currentTarget.value)}/><br/>
               <button type="submit" className="btn btn-light" disabled={!name || !email || !password} onClick={handleCreate}>Create Account</button><>       </>
-              <button type="submit" className="btn btn-light" id="googlelogin" onClick={handleGoogle}>Google Login</button>
+
+              <button type="submit" className="btn btn-light" id="googlelogin" onClick={handleGoogle}>Google</button>
               </>
             ):(
               <>
