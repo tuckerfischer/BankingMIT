@@ -1,0 +1,14 @@
+div ul.navbar-nav li.nav-item a.nav-link:hover { 
+    background-color: #0a0a0a;
+color: white; }
+
+#LoginCard {
+    box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    position: absolute;
+    float: right;
+    z-index: 100;
+    margin: 0;
+    right: 10px;
+  }
+
