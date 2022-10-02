@@ -20,13 +20,13 @@ function NavBar(){
             <a className="nav-link" id='createLink' href="#/CreateAccount/" data-toggle="popover" title="Create a New Account">Create Account</a>
           </li>
           <li className="nav-item" >
-            <a className="nav-link" id = 'depositLink' href="#/deposit/" data-toggle="popover" title="Deposit your money!">Deposit</a>
+            <a className="nav-link" id = 'depositLink' style = {{display: "none"}} href="#/deposit/" data-toggle="popover" title="Deposit your money!">Deposit</a>
           </li>
           <li className="nav-item" >
-            <a className="nav-link" id = 'withdrawLink' href="#/withdraw/" data-toggle="popover" title="Withdraw your money!">Withdraw</a>
+            <a className="nav-link" id = 'withdrawLink' style = {{display: "none"}} href="#/withdraw/" data-toggle="popover" title="Withdraw your money!">Withdraw</a>
           </li>
           <li className="nav-item" >
-            <a className="nav-link" id = 'balanceLink' href="#/balance/" data-toggle="popover" title="Check your balance">Balance</a>
+            <a className="nav-link" id = 'balanceLink' style = {{display: "none"}} href="#/balance/" data-toggle="popover" title="Check your balance">Balance</a>
           </li>
         </ul>
         <ul className="navbar-nav  ml-auto">
